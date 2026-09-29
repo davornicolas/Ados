@@ -1,0 +1,7 @@
+ Not IsNull({ado.Prod.Glosa}) 
+ And (
+      Length(Trim({ado.Prod.Glosa})) > 60
+      Or InStr({ado.Prod.Glosa}, Chr(13)) > 0
+      Or InStr({ado.Prod.Glosa}, Chr(10)) > 0
+)
+    

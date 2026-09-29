@@ -1,0 +1,3 @@
+Not OnFirstRecord
+and {@Prod.GlosaLP} = Previous({@Prod.GlosaLP})
+and {ado.Prod.Producto} = Previous({ado.Prod.Producto})
